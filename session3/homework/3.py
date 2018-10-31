@@ -1,5 +1,5 @@
 items = ["T-shirt", "Sweater"]
-n = input("Welcome to our shop, what do you want ( C, R, U, D )? ")
+n = input("Welcome to our shop, what do you want ( C, R, U, D )? ").upper()
 
 while n != "C" and n != "R" and n != "U" and n != "D":
     print("Not ok")
